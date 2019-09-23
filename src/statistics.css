@@ -1,0 +1,52 @@
+.statistics {
+  /* The grid: Four equal columns that floats next to each other */
+  /* Style the images inside the grid */
+  /* Clear floats after the columns */
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  /* Expanding image text */
+  /* Closable button inside the image */
+}
+
+.statistics .column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.statistics .column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.statistics .column img:hover {
+  opacity: 1;
+}
+
+.statistics .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.statistics .container {
+  position: relative;
+  display: none;
+}
+
+.statistics #imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.statistics .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=statistics.css.map */

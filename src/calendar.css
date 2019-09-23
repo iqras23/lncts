@@ -1,0 +1,55 @@
+.calendar .calendar {
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+}
+
+.calendar div.gallery {
+  border: 1px solid #ccc;
+  font-family: "Rambla";
+}
+
+.calendar div.gallery:hover {
+  border: 1px solid #777;
+}
+
+.calendar div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.calendar div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.calendar * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.calendar .responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .calendar .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .calendar .responsive {
+    width: 100%;
+  }
+}
+
+.calendar .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*# sourceMappingURL=calendar.css.map */

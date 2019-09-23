@@ -1,0 +1,550 @@
+.dean {
+  /* header,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+} */
+  /* Basic */
+  /* 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #fff;
+}
+*/
+  /* Row */
+  /* Large */
+  /* Medium */
+  /* Small */
+}
+
+.dean html,
+.dean body,
+.dean div,
+.dean .h22,
+.dean .p1,
+.dean ul,
+.dean header,
+.dean section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.dean body {
+  color: #666;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 1.65em;
+}
+
+.dean .p1 {
+  margin: 0 0 2em 0;
+}
+
+.dean .h22 {
+  color: #555;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+}
+
+.dean .h22 {
+  font-size: 2em;
+  line-height: 1.35em;
+}
+
+.dean .container {
+  margin: 0 auto;
+  max-width: calc(100% - 4em);
+  width: 60em;
+}
+
+@media screen and (max-width: 980px) {
+  .dean .container {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dean .container {
+    max-width: calc(100% - 3em);
+  }
+}
+
+.dean .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.dean .row > * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dean .row > .col-6 {
+  width: 50%;
+}
+
+.dean .row {
+  margin-top: 0;
+  margin-left: -2em;
+}
+
+.dean .row > * {
+  padding: 0 0 0 2em;
+}
+
+.dean .row.gtr-150 {
+  margin-top: 0;
+  margin-left: -3em;
+}
+
+.dean .row.gtr-150 > * {
+  padding: 0 0 0 3em;
+}
+
+@media screen and (max-width: 1680px) {
+  .dean .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .dean .row > * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .dean .row {
+    margin-top: 0;
+    margin-left: -2em;
+  }
+  .dean .row > * {
+    padding: 0 0 0 2em;
+  }
+  .dean .row.gtr-150 {
+    margin-top: 0;
+    margin-left: -3em;
+  }
+  .dean .row.gtr-150 > * {
+    padding: 0 0 0 3em;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .dean .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .dean .row > * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .dean .row {
+    margin-top: 0;
+    margin-left: -2em;
+  }
+  .dean .row > * {
+    padding: 0 0 0 2em;
+  }
+  .dean .row.gtr-150 {
+    margin-top: 0;
+    margin-left: -3em;
+  }
+  .dean .row.gtr-150 > * {
+    padding: 0 0 0 3em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .dean .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .dean .row > * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .dean .row > .col-12-medium {
+    width: 100%;
+  }
+  .dean .row {
+    margin-top: 0;
+    margin-left: -2em;
+  }
+  .dean .row > * {
+    padding: 0 0 0 2em;
+  }
+  .dean .row.gtr-150 {
+    margin-top: 0;
+    margin-left: -3em;
+  }
+  .dean .row.gtr-150 > * {
+    padding: 0 0 0 3em;
+  }
+  .dean .row.gtr-150.gtr-uniform {
+    margin-top: -3em;
+  }
+  .dean .row.gtr-150.gtr-uniform > * {
+    padding-top: 3em;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .dean .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .dean .row > * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .dean .row {
+    margin-top: 0;
+    margin-left: -2em;
+  }
+  .dean .row > * {
+    padding: 0 0 0 2em;
+  }
+  .dean .row.gtr-150 {
+    margin-top: 0;
+    margin-left: -3em;
+  }
+  .dean .row.gtr-150 > * {
+    padding: 0 0 0 3em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dean .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .dean .row > * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .dean .row {
+    margin-top: 0;
+    margin-left: -2em;
+  }
+  .dean .row > * {
+    padding: 0 0 0 2em;
+  }
+  .dean .row.gtr-150 {
+    margin-top: 0;
+    margin-left: -3em;
+  }
+  .dean .row.gtr-150 > * {
+    padding: 0 0 0 3em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .dean .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .dean .row > * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .dean .row {
+    margin-top: 0;
+    margin-left: -2em;
+  }
+  .dean .row > * {
+    padding: 0 0 0 2em;
+  }
+  .dean .row.gtr-150 {
+    margin-top: 0;
+    margin-left: -3em;
+  }
+  .dean .row.gtr-150 > * {
+    padding: 0 0 0 3em;
+  }
+}
+
+.dean section.special {
+  text-align: center;
+}
+
+.dean header .p1 {
+  color: #999;
+  margin: 0 0 1.5em 0;
+  position: relative;
+}
+
+.dean header .h22 + .p1 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  margin-top: -1em;
+}
+
+.dean header.major {
+  margin: 0 0 1em 0;
+}
+
+.dean header.major:after {
+  background: rgba(144, 144, 144, 0.5);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-top: 1.5em;
+  width: 6em;
+}
+
+.dean header.major .h22 {
+  margin: 0;
+}
+
+.dean header.major p {
+  margin: 0.7em 0 0 0;
+}
+
+.dean header.special {
+  text-align: center;
+}
+
+.dean .image {
+  border-radius: 4px;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.dean .image img {
+  border-radius: 4px;
+  display: block;
+}
+
+.dean .image.fit {
+  display: block;
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+
+.dean .image.fit img {
+  width: 100%;
+}
+
+.dean .major-icons {
+  list-style: disc;
+  margin: 0 0 2em 0;
+  padding-left: 1em;
+}
+
+.dean ul.major-icons {
+  list-style: none;
+  padding-left: 0;
+}
+
+.dean ul.major-icons li {
+  display: inline-block;
+  padding: 2.5em;
+  text-align: center;
+}
+
+.dean .main {
+  padding: 6em 0 4em 0;
+}
+
+.dean .main.style2 {
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.75);
+  background-attachment: fixed, fixed;
+  background-image: url("/img/010.jpg"), url("/img/010.jpg");
+  background-size: auto, cover;
+}
+
+.dean .main.style2 h1,
+.dean .main.style2 .h22,
+.dean .main.style2 h3,
+.dean .main.style2 h4,
+.dean .main.style2 h5,
+.dean .main.style2 h6,
+.dean .main.style2 strong,
+.dean .main.style2 b {
+  color: #ffffff;
+}
+
+.dean .main.style2 header p {
+  color: #ffffff;
+}
+
+.dean .main.style2 header.major:after {
+  background: #ffffff;
+}
+
+.dean .main.style2 ul.major-icons li .icon {
+  border-color: #ffffff;
+}
+
+.dean .main.style2 .icon.major {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1680px) {
+  .dean {
+    /* Basic */
+  }
+  .dean .dean {
+    font-size: 14pt;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .dean {
+    /* Basic */
+    /* List */
+  }
+  .dean .dean {
+    font-size: 13pt;
+  }
+  .dean .h22 br {
+    display: none;
+  }
+  .dean ul.major-icons li {
+    padding: 2em;
+  }
+  .dean ul.major-icons li .icon {
+    height: 8em;
+    line-height: 8em;
+    width: 8em;
+  }
+  .dean .main {
+    padding: 4em 0 2em 0;
+  }
+  .dean .main.style2 {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .dean ul.major-icons li {
+    padding: 2em;
+  }
+  .dean ul.major-icons li .icon {
+    height: 7em;
+    line-height: 7em;
+    width: 7em;
+  }
+  .dean .main {
+    padding: 5em 3em 3em 3em;
+  }
+  .dean #two {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .dean .dean {
+    font-size: 12pt;
+  }
+  .dean .h22 {
+    font-size: 1.5em;
+  }
+  .dean ul.major-icons li {
+    padding: 1.5em;
+  }
+  .dean ul.major-icons li .icon {
+    height: 5em;
+    line-height: 5em;
+    width: 5em;
+  }
+  .dean ul.major-icons li .icon:before {
+    font-size: 42px;
+  }
+  .dean .main {
+    padding: 3em 1.5em 1em 1.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .dean .main {
+    padding: 2em 1.5em 0.1em 1.5em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .dean .dean {
+    min-width: 320px;
+  }
+  .dean .main {
+    padding: 2em 1em 0.1em 1em;
+  }
+}
+/*# sourceMappingURL=dean.css.map */

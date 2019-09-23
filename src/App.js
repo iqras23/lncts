@@ -1,26 +1,58 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import Navbar from "./Navbar";
+import Home from "./Home";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Faculty from "./Faculty";
+import Events from "./Events";
+import Recruiters from "./Recruiters";
+import Alumni from "./Alumni";
+import Programmes from "./Programmes";
+import Labs from "./Labs";
+import Calendar from "./Calendar";
+import Statistics from "./Statistics";
+import Aboutus from "./Aboutus";
+import Vision from "./Vision";
+import Management from "./Management";
+import Dean from "./Dean";
+import Osd from "./Osd";
+import Principal from "./Principal";
+import Footer from "./Footer";
+import Clubs from "./Clubs";
+import Mentor from "./Mentor";
+import Admission from "./Admission";
+import Gallery from "./Gallery";
+import Hod from "./Hod";
+// import Achievements from "./Achievements";
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/faculty" component={Faculty} />
+          <Route exact path="/events" component={Events} />
+          <Route exact path="/recruiters" component={Recruiters} />
+          <Route exact path="/alumni" component={Alumni} />
+          <Route exact path="/programmes" component={Programmes} />
+          <Route exact path="/labs" component={Labs} />
+          <Route exact path="/calendar" component={Calendar} />
+          <Route exact path="/placementstatistics" component={Statistics} />
+          <Route exact path="/aboutlncts" component={Aboutus} />
+          <Route exact path="/vision|mission" component={Vision} />
+          <Route exact path="/leadership" component={Management} />
+          <Route exact path="/dean" component={Dean} />
+          <Route exact path="/osd" component={Osd} />
+          <Route exact path="/principal" component={Principal} />
+          <Route exact path="/clubs" component={Clubs} />
+          <Route exact path="/mentorinfo" component={Mentor} />
+          <Route exact path="/admission" component={Admission} />
+          <Route exact path="/gallery" component={Gallery} />
+          <Route exact path="/hod" component={Hod} />
+          {/* <Route exact path="/achievements" component={Achievements} /> */}
+        </Switch>
+      </div>
+      <Footer />
+    </BrowserRouter>
   );
 }
-
-export default App;
