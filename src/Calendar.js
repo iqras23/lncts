@@ -22,54 +22,56 @@ export default class Calendar extends Component {
   }
 
   render() {
+    var res;
     if (!this.state.isLoading) {
-      return this.state.calendars.map(calendar => (
-        <div className="calendar">
-          <div class="responsive">
-            <br />
-            <br />
-            <div
-              class="gallery"
-              style={{
-                boxShadow: "2.5px 5px 9px #888888"
-              }}
-            >
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={"https://csdept-api.herokuapp.com/" + calendar.image}
-              >
-                <img
-                  src={"https://csdept-api.herokuapp.com/" + calendar.thumb}
-                  alt={calendar.title}
-                  width="600"
-                  height="400"
-                />
-              </a>
+      return (
+        <div
+          style={{ minHeight: "550px", marginBottom: "100px", clear: "both" }}
+        >
+          <br />
+          <br />
+          <h2
+            style={{
+              textAlign: "center",
+              fontFamily: "Rambla",
+              textDecoration: "overline"
+            }}
+          >
+            Academic Calendar
+          </h2>
+          {this.state.calendars.map(calendar => (
+            <div className="calendar" id="calendar">
+              <div class="responsive">
+                <br />
+                <br />
+                <div
+                  class="gallery"
+                  style={{
+                    boxShadow: "2.5px 5px 9px #888888"
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={"https://csdept-api.herokuapp.com/" + calendar.image}
+                  >
+                    <img
+                      src={"https://csdept-api.herokuapp.com/" + calendar.thumb}
+                      alt={calendar.title}
+                      width="600"
+                      height="400"
+                    />
+                  </a>
 
-              <div class="desc">{calendar.title + " Semester"}</div>
+                  <div class="desc">{calendar.title + " Semester"}</div>
+                </div>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
-      ));
+      );
+    } else {
+      return <div />;
     }
-    return (
-      <div
-        style={{
-          position: "fixed",
-          top: "45%",
-          left: "45%",
-
-          transform: "translate(-50%, -50%)",
-          transform: "-webkit-translate(-50%, -50%)",
-          transform: "m-oz-translate(-50%, -50%)",
-          transform: "-ms-translate(-50%, -50%)"
-        }}
-      >
-        <div>
-          <WanderingCubes size={100} cubeSize={20} />
-        </div>
-      </div>
-    );
   }
 }

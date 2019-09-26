@@ -14,9 +14,13 @@ export default function Words() {
                 <cite>Dr. Bhupesh Gaur, Hod</cite>
               </blockquote>
             </div>
-            <div className="span3 offset2">
-              {/* <div className="span6 aligncenter flyRight"> */}
-              <img src="/img/hod1.jpg" alt="" />
+
+            <div className="span3 offset1">
+              <img
+                src="/img/gallery/h.jpeg"
+                alt="hod"
+                style={{ borderRadius: "50%" }}
+              />
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ export default function Home() {
     <div>
       <Carousel />
       <Modals />
-      <section className="spacer green">
+      {/* <section className="spacer green">
         <div className="container">
           <div className="row">
             <div className="span6 alignright flyLeft">
@@ -28,7 +28,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <About />
       <Works />
       <Words />
