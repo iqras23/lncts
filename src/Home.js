@@ -30,12 +30,13 @@ export default function Home() {
         </div>
       </section> */}
       <About />
+
       <Works />
       <Words />
-      <Images />
-      <Quote />
       <News />
+      <Quote />
 
+      <Images />
       <Subscribe />
       <a href="#" className="scrollup">
         <i className="icon-angle-up icon-square icon-bgdark icon-2x"></i>

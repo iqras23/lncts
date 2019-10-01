@@ -2,7 +2,7 @@ import React from "react";
 import "./dean.css";
 export default function Dean() {
   return (
-    <div>
+    <div id="dean">
       <div className="dean" style={{ fontFamily: "Rambla" }}>
         <section id="two" class="main style2">
           <div class="container">

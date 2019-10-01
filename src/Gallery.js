@@ -2,7 +2,7 @@ import React from "react";
 import "./gallery.css";
 export default function Gallery() {
   return (
-    <div className="gallery">
+    <div className="gallery" id="gallery">
       <section class="section">
         <h2 style={{ textAlign: "center", textDecoration: "overline" }}>
           <strong>Image Gallery</strong>

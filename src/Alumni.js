@@ -3,6 +3,7 @@ import React from "react";
 export default function Alumni() {
   return (
     <div>
+      <div id="alumni"></div>
       <section
         id="blog"
         class="section"

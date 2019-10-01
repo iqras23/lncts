@@ -26,37 +26,39 @@ export default function Footer() {
                           style={{ fontFamily: "Rambla" }}
                         >
                           <li>
-                            <Link to="/lncts">LNCT&S</Link>
+                            <a href="/aboutlncts#aboutlncts">LNCT&S</a>
                           </li>
                           <li>
-                            <Link to="/programmes">Programmes </Link>
+                            <a href="/programmes#program">Programmes </a>
                           </li>
                           <li>
-                            <Link to="/vision">Vision|Mission</Link>
+                            <a href="/vision|mission#vision|mission">
+                              Vision|Mission
+                            </a>
                           </li>
                           <li>
-                            <Link to="/management">Management</Link>
+                            <a href="/leadership#leadership">Management</a>
                           </li>
                           <li>
-                            <Link to="/osd">Officer On Special Duty</Link>
+                            <a href="/osd#osd">Officer On Special Duty</a>
                           </li>
                           <li>
-                            <Link to="/dean">Dean</Link>
+                            <a href="/dean#dean">Dean</a>
                           </li>{" "}
                           <li>
-                            <Link to="/hod">Head of department</Link>
+                            <a href="/hod#hod">Head of department</a>
                           </li>
                           <li>
-                            <Link to="/faculty">Faculties</Link>
+                            <a href="/faculty#faculty">Faculties</a>
                           </li>
                           <li>
-                            <Link to="/alumni">Alumni</Link>
+                            <a href="/alumni#alumni">Alumni</a>
                           </li>
                           <li>
-                            <Link to="/events">Events</Link>
+                            <a href="/events#events">Events</a>
                           </li>
                           <li>
-                            <Link to="/gallery">Gallery</Link>
+                            <a href="/gallery#gallery">Gallery</a>
                           </li>
                         </ul>
                       </section>
@@ -72,16 +74,18 @@ export default function Footer() {
                           style={{ fontFamily: "Rambla" }}
                         >
                           <li>
-                            <Link to="/statistics">Placement Records</Link>
+                            <a href="/placementstatistics#stats">
+                              Placement Records
+                            </a>
                           </li>
                           <li>
-                            <Link to="/recruiters">Recruiters</Link>
+                            <a href="/recruiters#recruiters">Recruiters</a>
                           </li>
                           <li>
-                            <Link to="#news">Latest News</Link>
+                            <a href="#news">Latest News</a>
                           </li>
                           <li>
-                            <Link to="/events">Latest Events</Link>
+                            <a href="/events#vents">Latest Events</a>
                           </li>
                         </ul>
                       </section>
@@ -95,16 +99,16 @@ export default function Footer() {
                           style={{ fontFamily: "Rambla" }}
                         >
                           <li>
-                            <Link to="/syllabus">Syllabus</Link>
+                            <a href="/syllabus#syllabus">Syllabus</a>
                           </li>
                           <li>
-                            <Link to="/clubs">Student Clubs</Link>
+                            <a href="/scheme">Scheme</a>
                           </li>
                           <li>
-                            <Link to="/calendar">Academic Calendar</Link>
+                            <a href="/calendar#calendar">Academic Calendar</a>
                           </li>
                           <li>
-                            <Link to="/achievements">Achievements</Link>
+                            <a href="/notes#notes">Notes</a>
                           </li>
                         </ul>
                       </section>

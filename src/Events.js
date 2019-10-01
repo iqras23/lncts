@@ -25,7 +25,7 @@ export default class Events extends Component {
 
     if (!this.state.isLoading) {
       return this.state.events.map((event, index) => (
-        <div className="body1">
+        <div className="body1" id="events">
           {console.log(this.state.events[0].title)}
           <div
             id="wrapper"

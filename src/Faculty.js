@@ -2,18 +2,70 @@ import React from "react";
 
 export default function Faculty() {
   return (
-    <div>
+    <div id="faculty">
       <section id="blog" class="section" style={{ fontFamily: "Rambla" }}>
         <div class="container">
-          <h4 style={{ fontFamily: "Rambla" }}>Our Faculties</h4>
+          <h4
+            style={{
+              fontFamily: "Rambla",
+              fontSize: "40px",
+              textDecoration: "overline"
+            }}
+          >
+            Our Faculties
+          </h4>
           <br />
 
           <div class="row">
+            <div
+              class="span3"
+              data-toggle="collapse"
+              data-target="#collapseNine"
+              style={{ cursor: "pointer" }}
+            >
+              <div class="home-post">
+                <div class="post-image">
+                  <img class="max-img" src="img/ash.jpg" alt="" />
+                </div>
+
+                <div class="entry-content">
+                  <div class="accordion" id="myAccordion">
+                    <div class="card">
+                      <div class="card-header" id="headingNine">
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Dr. Ashish Khare</strong>
+                        </h5>
+                      </div>
+                      <div
+                        id="collapseNine"
+                        class="collapse"
+                        aria-labelledby="headingNine"
+                        data-parent="#myAccordion"
+                      >
+                        <div class="card-body">
+                          <ul style={{ listStyle: "bullet" }}>
+                            <li>Qualification – PHD – Doctorate.</li>
+                            <li>Experience – 15 years.</li>
+                            <li>No of Publications- 25.</li>
+                            <li>
+                              Specialization - wireless networks ,Mobile Ad hoc
+                              networks and image processing.
+                            </li>
+                            <li>Membership Details - CSI & ISTE.</li>
+                          </ul>{" "}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             {/*BHAWNA MAM*/}
             <div
               class="span3"
               data-toggle="collapse"
               data-target="#collapseOne"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -24,9 +76,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingOne">
-                        <h3 class="mb-0">
-                          <strong>Bhawna Pillai</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Bhawna Pillai</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseOne"
@@ -65,6 +117,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseTwo"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -75,9 +128,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingTwo">
-                        <h3 class="mb-0">
-                          <strong>Ayush Agrawal</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Ayush Agrawal</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseTwo"
@@ -107,53 +160,13 @@ export default function Faculty() {
               </div>
             </div>
             {/*Ashish sir*/}
-            <div
-              class="span3"
-              data-toggle="collapse"
-              data-target="#collapseNine"
-            >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/ash.jpg" alt="" />
-                </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingNine">
-                        <h3 class="mb-0">
-                          <strong>Ashish Khare</strong>
-                        </h3>
-                      </div>
-                      <div
-                        id="collapseNine"
-                        class="collapse"
-                        aria-labelledby="headingNine"
-                        data-parent="#myAccordion"
-                      >
-                        <div class="card-body">
-                          <ul style={{ listStyle: "bullet" }}>
-                            <li>Qualification – PHD – Doctorate.</li>
-                            <li>Experience – 15 years.</li>
-                            <li>No of Publications- 25.</li>
-                            <li>
-                              Specialization - wireless networks ,Mobile Ad hoc
-                              networks and image processing.
-                            </li>
-                            <li>Membership Details - CSI & ISTE.</li>
-                          </ul>{" "}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             {/*Vinod sir*/}
             <div
               class="span3"
               data-toggle="collapse"
               data-target="#collapseFour"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -164,9 +177,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingFour">
-                        <h3 class="mb-0">
-                          <strong>Vinod Patel</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Vinod Patel</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseFour"
@@ -213,6 +226,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseFive"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -223,9 +237,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingFive">
-                        <h3 class="mb-0">
-                          <strong>Deepak Tomar</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Deepak Tomar</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseFive"
@@ -263,6 +277,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseSix"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -273,9 +288,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingSix">
-                        <h3 class="mb-0">
-                          <strong>Vivek Kumar</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Vivek Kumar</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseSix"
@@ -318,6 +333,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseSeven"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -328,9 +344,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingSeven">
-                        <h3 class="mb-0">
-                          <strong>Nikesh Tiwari</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Nikesh Tiwari</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseSeven"
@@ -368,19 +384,20 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseEight"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
-                  <img class="max-img" src="img/sur.jpg" alt="" />
+                  <img class="max-img" src="img/sure.jpg" alt="" />
                 </div>
 
                 <div class="entry-content">
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingEight">
-                        <h3 class="mb-0">
-                          <strong>Surendra Chadokar</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Surendra Chadokar</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseEight"
@@ -419,6 +436,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseEleven"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -429,9 +447,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingEleven">
-                        <h3 class="mb-0">
-                          <strong>Manoj Kumar</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Manoj Kumar</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseEleven"
@@ -466,6 +484,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseTen"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -476,9 +495,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingTen">
-                        <h3 class="mb-0">
-                          <strong>Gaurav Nayak</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Gaurav Nayak</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseTen"
@@ -511,6 +530,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseThree"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -521,9 +541,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingThree">
-                        <h3 class="mb-0">
-                          <strong>Sushila Sonare</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Sushila Sonare</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseThree"
@@ -564,6 +584,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseTwelve"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -574,9 +595,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingTwelve">
-                        <h3 class="mb-0">
-                          <strong>Safdar Khan</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Safdar Khan</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseTwelve"
@@ -614,6 +635,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseThirteen"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -624,9 +646,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingThirteen">
-                        <h3 class="mb-0">
-                          <strong>Ram Yadav</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Ram Yadav</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseThirteen"
@@ -659,6 +681,7 @@ export default function Faculty() {
               class="span3"
               data-toggle="collapse"
               data-target="#collapseFourteen"
+              style={{ cursor: "pointer" }}
             >
               <div class="home-post">
                 <div class="post-image">
@@ -669,9 +692,9 @@ export default function Faculty() {
                   <div class="accordion" id="myAccordion">
                     <div class="card">
                       <div class="card-header" id="headingFourteen">
-                        <h3 class="mb-0">
-                          <strong>Khushbu Rai</strong>
-                        </h3>
+                        <h5 style={{ textAlign: "center" }}>
+                          <strong>Prof. Khushbu Rai</strong>
+                        </h5>
                       </div>
                       <div
                         id="collapseFourteen"

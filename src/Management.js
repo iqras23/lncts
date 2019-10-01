@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 export default function management() {
   return (
-    <div>
+    <div id="leadership">
       <section id="blog" class="section" style={{ fontFamily: "Rambla" }}>
         <div class="container">
           <h4 style={{ textDecoration: "overline" }}>Our Leadership</h4>

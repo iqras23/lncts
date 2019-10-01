@@ -2,7 +2,7 @@ import React from "react";
 import "./mentor.css";
 export default function Mentor() {
   return (
-    <div className="body1" style={{ fontFamily: "Rambla" }}>
+    <div className="body1" id="info" style={{ fontFamily: "Rambla" }}>
       <div id="wrapper" class="divided">
         <section class="wrapper style1 align-center" id="reference">
           <div className="inner">

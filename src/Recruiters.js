@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Recruiters() {
   return (
-    <div className="recruiters">
+    <div className="recruiters" id="recruiters">
       <section id="clients" class="section-bg-1">
         <div class="container">
           <div class="section-header-1 center">

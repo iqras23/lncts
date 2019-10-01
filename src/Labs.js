@@ -2,7 +2,7 @@ import React from "react";
 import "./labs.css";
 export default function App() {
   return (
-    <div className="labs" style={{ backgroundColor: "black" }}>
+    <div className="labs" id="labs" style={{ backgroundColor: "black" }}>
       {/* <!-- Two --> */}
       <section id="two" class="wrapper alt style2">
         <section class="spotlight">

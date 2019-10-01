@@ -26,6 +26,7 @@ export default class Achievements extends Component {
     if (!this.state.isLoading) {
       return this.state.achievements.map((achievement, index) => (
         <div className="body1">
+          <div id="achievements"></div>
           {console.log(this.state.achievements[0].title)}
           <div
             id="wrapper"

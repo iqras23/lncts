@@ -3,6 +3,7 @@ import React from "react";
 export default function Admission() {
   return (
     <div>
+      <div id="admission"></div>
       <div>
         <section id="blog" class="section" style={{ fontFamily: "Rambla" }}>
           <section>

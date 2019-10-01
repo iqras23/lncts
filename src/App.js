@@ -22,7 +22,11 @@ import Mentor from "./Mentor";
 import Admission from "./Admission";
 import Gallery from "./Gallery";
 import Hod from "./Hod";
-// import Achievements from "./Achievements";
+import Notes from "./Notes";
+import Syllabus from "./Syllabus";
+import Questionpapers from "./Questionpapers";
+import Scheme from "./Scheme";
+import Achievements from "./Achievements";
 export default function App() {
   return (
     <BrowserRouter>
@@ -49,7 +53,15 @@ export default function App() {
           <Route exact path="/admission" component={Admission} />
           <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/hod" component={Hod} />
-          {/* <Route exact path="/achievements" component={Achievements} /> */}
+          <Route exact path="/notes" component={Notes} />
+          <Route exact path="/syllabus" component={Syllabus} />
+          <Route exact path="/scheme" component={Scheme} />
+          <Route
+            exact
+            path="/previousyearquestionpapers"
+            component={Questionpapers}
+          />
+          <Route exact path="/achievements" component={Achievements} />
         </Switch>
       </div>
       <Footer />

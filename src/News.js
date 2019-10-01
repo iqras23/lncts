@@ -26,7 +26,7 @@ export default class News extends Component {
     if (!this.state.isLoading) {
       return (
         <div>
-          <div className="news">
+          <div className="news" id="news">
             <div id="page-wrapper">
               <section id="footer1">
                 <div class="container">

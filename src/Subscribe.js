@@ -58,7 +58,7 @@ export default class Subscribe extends Component {
                       <div className="span6 offset2">
                         <div className="field your-email form-group">
                           <input
-                            type="email"
+                            type="text"
                             name="id"
                             value={this.state.id}
                             onChange={this.handleChange}

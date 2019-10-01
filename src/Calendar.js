@@ -25,49 +25,67 @@ export default class Calendar extends Component {
     var res;
     if (!this.state.isLoading) {
       return (
-        <div
-          style={{ minHeight: "550px", marginBottom: "100px", clear: "both" }}
-        >
-          <br />
-          <br />
-          <h2
+        <div className="body1" id="calendar">
+          <div
+            id="wrapper"
+            class="divided"
             style={{
-              textAlign: "center",
-              fontFamily: "Rambla",
-              textDecoration: "overline"
+              backgroundColor: "_palette(bg)",
+              color: "_palette(fg)",
+              fontFamily: "Source Sans Pro Helvetica sans-serif",
+              fontSize: "1rem",
+              lineHeight: "1.7",
+              whiteSpace: "pre-line"
             }}
           >
-            Academic Calendar
-          </h2>
-          {this.state.calendars.map(calendar => (
-            <div className="calendar" id="calendar">
-              <div class="responsive">
-                <br />
-                <br />
-                <div
-                  class="gallery"
-                  style={{
-                    boxShadow: "2.5px 5px 9px #888888"
-                  }}
-                >
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={"https://csdept-api.herokuapp.com/" + calendar.image}
-                  >
-                    <img
-                      src={"https://csdept-api.herokuapp.com/" + calendar.thumb}
-                      alt={calendar.title}
-                      width="600"
-                      height="400"
-                    />
-                  </a>
+            <div>
+              <br />
+              <br />
+              <h2
+                style={{
+                  textAlign: "center",
+                  fontFamily: "Rambla",
+                  textDecoration: "overline"
+                }}
+              >
+                Academic Calendar
+              </h2>
+              {this.state.calendars.map((calendar, index) => (
+                <div className="calendar" id="calendar">
+                  <div class="responsive">
+                    <br />
 
-                  <div class="desc">{calendar.title + " Semester"}</div>
+                    <div
+                      class="gallery"
+                      style={{
+                        boxShadow: "2.5px 5px 9px #888888"
+                      }}
+                    >
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={
+                          "https://csdept-api.herokuapp.com/" + calendar.image
+                        }
+                      >
+                        <img
+                          src={
+                            "https://csdept-api.herokuapp.com/" + calendar.thumb
+                          }
+                          alt={calendar.title}
+                          width="600"
+                          height="400"
+                        />
+                      </a>
+
+                      <div class="desc">{calendar.title + " Semester"}</div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
-          ))}
+          </div>
+          <br />
         </div>
       );
     } else {

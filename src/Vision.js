@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Vision() {
   return (
-    <div>
+    <div id="vision|mission">
       <article id="main">
         <section class="wrapper style5">
           <div class="inner">
