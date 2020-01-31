@@ -3,8 +3,8 @@ import React from "react";
 export default function Faculty() {
   return (
     <div id="faculty">
-      <section id="blog" class="section" style={{ fontFamily: "Rambla" }}>
-        <div class="container">
+      <section id="blog" className="section" style={{ fontFamily: "Rambla" }}>
+        <div className="container">
           <h4
             style={{
               fontFamily: "Rambla",
@@ -16,33 +16,33 @@ export default function Faculty() {
           </h4>
           <br />
 
-          <div class="row">
+          <div className="row">
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseNine"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/ash.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/ash.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingNine">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingNine">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Dr. Ashish Khare</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseNine"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingNine"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <ul style={{ listStyle: "bullet" }}>
                             <li>Qualification – PHD – Doctorate.</li>
                             <li>Experience – 15 years.</li>
@@ -62,31 +62,31 @@ export default function Faculty() {
             </div>
             {/*BHAWNA MAM*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseOne"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/bhaw.jpeg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/bhaw.jpeg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingOne">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingOne">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Bhawna Pillai</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseOne"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingOne"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <p>
                             <ul style={{ listStyle: "bullet" }}>
                               <li>
@@ -114,31 +114,31 @@ export default function Faculty() {
             </div>
             {/*AYUSH SIR*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseTwo"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/ay.jpeg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/ay.jpeg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingTwo">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingTwo">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Ayush Agrawal</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseTwo"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingTwo"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <p>
                             <ul>
                               <li>
@@ -163,31 +163,31 @@ export default function Faculty() {
 
             {/*Vinod sir*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseFour"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/vin.jpeg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/vin.jpeg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingFour">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingFour">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Vinod Patel</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseFour"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingFour"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <p>
                             <ul style={{ listStyle: "bullet" }}>
                               <li>
@@ -221,33 +221,33 @@ export default function Faculty() {
           </div>
 
           {/*Second row*/}
-          <div class="row">
+          <div className="row">
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseFive"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/dee.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/dee.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingFive">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingFive">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Deepak Tomar</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseFive"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingFive"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <p>
                             <ul style={{ listStyle: "bullet" }}>
                               <li>
@@ -274,31 +274,31 @@ export default function Faculty() {
             {/*Vivek sir*/}
 
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseSix"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/viv.jpeg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/viv.jpeg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingSix">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingSix">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Vivek Kumar</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseSix"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingSix"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <p>
                             <ul style={{ listStyle: "bullet" }}>
                               <li>
@@ -330,31 +330,31 @@ export default function Faculty() {
 
             {/*Nikesh Sir*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseSeven"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/nik.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/nik.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingSeven">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingSeven">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Nikesh Tiwari</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseSeven"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingSeven"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <p>
                             <ul style={{ listStyle: "bullet" }}>
                               <li>
@@ -381,31 +381,31 @@ export default function Faculty() {
 
             {/*Surendra sir*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseEight"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/sure.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/sure.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingEight">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingEight">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Surendra Chadokar</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseEight"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingEight"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <ul style={{ listStyle: "bullet" }}>
                             <li>
                               Asst. Professor department of computer science.
@@ -431,33 +431,33 @@ export default function Faculty() {
             </div>
           </div>
           {/*Third row*/}
-          <div class="row">
+          <div className="row">
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseEleven"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/man.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/man.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingEleven">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingEleven">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Manoj Kumar</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseEleven"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingEleven"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <ul style={{ listStyle: "bullet" }}>
                             <li>
                               {" "}
@@ -481,31 +481,31 @@ export default function Faculty() {
 
             {/*Gaurav sir*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseTen"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/gau.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/gau.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingTen">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingTen">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Gaurav Nayak</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseTen"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingTen"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <ul style={{ listStyle: "bullet" }}>
                             <li>
                               Asst. Professor department of computer science.
@@ -527,31 +527,31 @@ export default function Faculty() {
 
             {/*Sushila mam*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseThree"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/sush.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/sush.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingThree">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingThree">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Sushila Sonare</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseThree"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingTwelve"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <ul style={{ listStyle: "disk" }}>
                             <li>
                               Asst. Professor department of computer science.
@@ -581,31 +581,31 @@ export default function Faculty() {
 
             {/*Sushila mam*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseTwelve"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/sar.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/sar.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingTwelve">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingTwelve">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Safdar Khan</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseTwelve"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingTwelve"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <ul style={{ listStyle: "disk" }}>
                             <li>
                               Asst. Professor department of computer science.
@@ -629,34 +629,34 @@ export default function Faculty() {
               </div>
             </div>
           </div>
-          <div class="row">
+          <div className="row">
             {/*Ram sir*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseThirteen"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/ram.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/ram.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingThirteen">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingThirteen">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Ram Yadav</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseThirteen"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingThirteen"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <ul style={{ listStyle: "disk" }}>
                             <li>
                               Asst. Professor department of computer science.
@@ -678,31 +678,31 @@ export default function Faculty() {
             </div>
             {/*Khushbu mam*/}
             <div
-              class="span3"
+              className="span3"
               data-toggle="collapse"
               data-target="#collapseFourteen"
               style={{ cursor: "pointer" }}
             >
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/khush.jpg" alt="" />
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/khush.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingFourteen">
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingFourteen">
                         <h5 style={{ textAlign: "center" }}>
                           <strong>Prof. Khushbu Rai</strong>
                         </h5>
                       </div>
                       <div
                         id="collapseFourteen"
-                        class="collapse"
+                        className="collapse"
                         aria-labelledby="headingFourteen"
                         data-parent="#myAccordion"
                       >
-                        <div class="card-body">
+                        <div className="card-body">
                           <ul style={{ listStyle: "disk" }}>
                             <li>
                               Asst. Professor department of computer science.

@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 export default class Subscribe extends Component {
   state = {
-    id: ""
+    id: "",
+    message: ""
   };
 
   handleChange = event => {
@@ -13,6 +14,9 @@ export default class Subscribe extends Component {
   };
 
   handleSubmit = event => {
+    this.setState({
+      id: ""
+    });
     event.preventDefault();
     fetch("https://csdept-api.herokuapp.com/emails", {
       method: "POST",
@@ -23,24 +27,14 @@ export default class Subscribe extends Component {
       body: JSON.stringify({
         id: this.state.id
       })
-    }).then(response => console.log(response.id));
+    })
+      .then(response => response.json())
+      .then(body =>
+        this.setState({
+          message: body.message
+        })
+      );
   };
-  //   axios
-  //     .post("https://csdept-api.herokuapp.com/emails", {
-  //       id: this.state.id
-  //     })
-  //     .then(function(response) {
-  //       console.log(response);
-  //     })
-  //     .then(function(error) {
-  //       console.log(error);
-  //     });
-  // };
-  // .then(function(response) {
-  //   return response.json();
-  // })
-  // .then(function(body) {
-  //   console.log(body);
 
   render() {
     return (
@@ -73,7 +67,12 @@ export default class Subscribe extends Component {
                           className="btn btn-theme pull-left"
                           onClick={this.handleSubmit}
                         />
-                      </div>
+                      </div>{" "}
+                    </div>
+                    <div style={{ textAlign: "center" }}>
+                      <h5 style={{ color: "white" }}>
+                        <strong>{this.state.message}</strong>
+                      </h5>
                     </div>
                   </form>
                 </div>

@@ -47,7 +47,6 @@ export default class Events extends Component {
                 orient +
                 " content-align-left image-position-center onscroll-image-fade-in"
               }
-              // id="first"
             >
               <div class="content">
                 <h2

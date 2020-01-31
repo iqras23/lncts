@@ -3,22 +3,22 @@ import "./about.css";
 export default function management() {
   return (
     <div id="leadership">
-      <section id="blog" class="section" style={{ fontFamily: "Rambla" }}>
-        <div class="container">
+      <section id="blog" className="section" style={{ fontFamily: "Rambla" }}>
+        <div className="container">
           <h4 style={{ textDecoration: "overline" }}>Our Leadership</h4>
           <br />
           <div className="row">
-            <div class="span4 ">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/chariman.jpg" alt="" />
+            <div className="span4 ">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/chariman.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingTwo">
-                        <h3 class="mb-0" style={{ textAlign: "center" }}>
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingTwo">
+                        <h3 className="mb-0" style={{ textAlign: "center" }}>
                           <strong>CHAIRMAN</strong>
                         </h3>
                         <p style={{ textAlign: "center" }}>
@@ -38,17 +38,17 @@ export default function management() {
                 </div>
               </div>
             </div>
-            <div class="span4">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/vice.jpg" alt="" />
+            <div className="span4">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/vice.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingNine">
-                        <h3 class="mb-0" style={{ textAlign: "center" }}>
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingNine">
+                        <h3 className="mb-0" style={{ textAlign: "center" }}>
                           <strong>VICE CHAIRPERSON</strong>
                         </h3>
                         <p style={{ textAlign: "center" }}>
@@ -69,17 +69,17 @@ export default function management() {
               </div>
             </div>
 
-            <div class="span4">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/secretary.jpg" alt="" />
+            <div className="span4">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/secretary.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
-                  <div class="accordion" id="myAccordion">
-                    <div class="card">
-                      <div class="card-header" id="headingNine">
-                        <h3 class="mb-0" style={{ textAlign: "center" }}>
+                <div className="entry-content">
+                  <div className="accordion" id="myAccordion">
+                    <div className="card">
+                      <div className="card-header" id="headingNine">
+                        <h3 className="mb-0" style={{ textAlign: "center" }}>
                           <strong>SECRETARY</strong>
                         </h3>
                         <p style={{ textAlign: "center" }}>

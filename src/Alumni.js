@@ -6,12 +6,12 @@ export default function Alumni() {
       <div id="alumni"></div>
       <section
         id="blog"
-        class="section"
+        className="section"
         style={{
           boxShadow: "5px 10px 18px #888888"
         }}
       >
-        <div class="container" style={{ fontFamily: "Rambla" }}>
+        <div className="container" style={{ fontFamily: "Rambla" }}>
           <h4
             style={{
               fontFamily: "Rambla",
@@ -24,19 +24,19 @@ export default function Alumni() {
           </h4>
 
           <div
-            class="row"
+            className="row"
             style={{
               textAlign: "center",
               fontFamily: "Rambla"
             }}
           >
-            <div class="span3">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/Picture1.jpg" alt="" />
+            <div className="span3">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/Picture1.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
+                <div className="entry-content">
                   <h5>
                     <strong>Abhinav Bakshi </strong>
                   </h5>
@@ -46,13 +46,13 @@ export default function Alumni() {
                 </div>
               </div>
             </div>
-            <div class="span3">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/Picture2.jpg" alt="" />
+            <div className="span3">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/Picture2.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
+                <div className="entry-content">
                   <h5>
                     <strong>Prayank Jain</strong>
                   </h5>
@@ -62,13 +62,13 @@ export default function Alumni() {
                 </div>
               </div>
             </div>
-            <div class="span3">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/Picture3.jpg" alt="" />
+            <div className="span3">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/Picture3.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
+                <div className="entry-content">
                   <h5>
                     <strong>Pulkit Waliya</strong>
                   </h5>
@@ -78,13 +78,13 @@ export default function Alumni() {
                 </div>
               </div>
             </div>
-            <div class="span3">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/Picture4.jpg" alt="" />
+            <div className="span3">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/Picture4.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
+                <div className="entry-content">
                   <h5>
                     <strong>Ina Sebstian</strong>
                   </h5>
@@ -96,16 +96,16 @@ export default function Alumni() {
             </div>
           </div>
           <div
-            className="row"
+            classNameName="row"
             style={{ textAlign: "center", fontFamily: "Rambla" }}
           >
-            <div class="span3">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/Picture5.jpg" alt="" />
+            <div className="span3">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/Picture5.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
+                <div className="entry-content">
                   <h5>
                     <strong>Abhiruchi Sharma</strong>
                   </h5>
@@ -115,13 +115,13 @@ export default function Alumni() {
                 </div>
               </div>
             </div>
-            <div class="span3">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/Picture6.jpg" alt="" />
+            <div className="span3">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/Picture6.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
+                <div className="entry-content">
                   <h5 style={{ textAlign: "center" }}>
                     <strong>Richa Agarwal</strong>
                   </h5>
@@ -132,13 +132,13 @@ export default function Alumni() {
               </div>
             </div>
 
-            <div class="span3">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/Picture7.jpg" alt="" />
+            <div className="span3">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/Picture7.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
+                <div className="entry-content">
                   <h5>
                     <strong>Ayush Jain</strong>
                   </h5>
@@ -148,13 +148,13 @@ export default function Alumni() {
                 </div>
               </div>
             </div>
-            <div class="span3">
-              <div class="home-post">
-                <div class="post-image">
-                  <img class="max-img" src="img/Picture9.jpg" alt="" />
+            <div className="span3">
+              <div className="home-post">
+                <div className="post-image">
+                  <img className="max-img" src="img/Picture9.jpg" alt="" />
                 </div>
 
-                <div class="entry-content">
+                <div className="entry-content">
                   <h5>
                     <strong>Vineet Jaruhar</strong>
                   </h5>

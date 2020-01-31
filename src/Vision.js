@@ -4,8 +4,8 @@ export default function Vision() {
   return (
     <div id="vision|mission">
       <article id="main">
-        <section class="wrapper style5">
-          <div class="inner">
+        <section className="wrapper style5">
+          <div className="inner">
             <h4
               className="h4"
               style={{ fontFamily: "Chewy", fontSize: "25px" }}

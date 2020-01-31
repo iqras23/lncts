@@ -23,8 +23,8 @@ export default class Scheme extends Component {
       return (
         <div id="scheme">
           <div className="body1" style={{ fontFamily: "Rambla" }}>
-            <div id="wrapper" class="divided">
-              <section class="wrapper style1 align-center" id="reference">
+            <div id="wrapper" className="divided">
+              <section className="wrapper style1 align-center" id="reference">
                 <div className="inner">
                   <h2
                     style={{
@@ -36,18 +36,18 @@ export default class Scheme extends Component {
                     Scheme
                   </h2>
 
-                  <div class="index align-left">
+                  <div className="index align-left">
                     <section id="reference-banner">
-                      <div class="content">
+                      <div className="content">
                         <section>
-                          <div class="table-wrapper">
-                            <table class="alt uniform fixed">
+                          <div className="table-wrapper">
+                            <table className="alt uniform fixed">
                               <tbody style={{ textAlign: "center" }}>
                                 <tr>
                                   <td>CURRENT SEMESTER</td>
                                   <td>DOWNLOAD</td>
                                 </tr>
-                                <tr class="alt">
+                                <tr className="alt">
                                   <td colspan="2"></td>
                                 </tr>
                                 {this.state.schemes.map(scheme => (

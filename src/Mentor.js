@@ -3,8 +3,8 @@ import "./mentor.css";
 export default function Mentor() {
   return (
     <div className="body1" id="info" style={{ fontFamily: "Rambla" }}>
-      <div id="wrapper" class="divided">
-        <section class="wrapper style1 align-center" id="reference">
+      <div id="wrapper" className="divided">
+        <section className="wrapper style1 align-center" id="reference">
           <div className="inner">
             <h2
               style={{
@@ -16,15 +16,15 @@ export default function Mentor() {
               Mentor Information Of All Classes
             </h2>
 
-            <div class="index align-left">
+            <div className="index align-left">
               <section id="reference-banner">
                 {/* <header>
-                  <h3>Mentor Information Of All Classes</h3>
+                  <h3>Mentor Information Of All ClassNamees</h3>
                 </header> */}
-                <div class="content">
+                <div className="content">
                   <section>
-                    <div class="table-wrapper">
-                      <table class="alt uniform fixed">
+                    <div className="table-wrapper">
+                      <table className="alt uniform fixed">
                         <tbody>
                           <tr>
                             <td>
@@ -55,7 +55,7 @@ export default function Mentor() {
                             </td>
                             <td>Mentor</td>
                           </tr>
-                          <tr class="alt">
+                          <tr className="alt">
                             <td colspan="2"></td>
                           </tr>
                           <tr>
@@ -76,7 +76,7 @@ export default function Mentor() {
                             </td>
                             <td>Prof. Sushila Sonare, Prof. Gaurav Nayak</td>
                           </tr>
-                          <tr class="alt">
+                          <tr className="alt">
                             <td colspan="2"></td>
                           </tr>
                           <tr>
@@ -97,7 +97,7 @@ export default function Mentor() {
                             </td>
                             <td>Prof. Ram Yadav, Prof. Khushbu Rai</td>
                           </tr>
-                          <tr class="alt">
+                          <tr className="alt">
                             <td colspan="2"></td>
                           </tr>
                           <tr>

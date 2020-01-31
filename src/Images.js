@@ -17,7 +17,6 @@ export default function Images() {
                 </li>
               </ul>
             </div>
-            {/* <!-- END PORTFOLIO FILTERING --> */}
           </div>
           <div className="row">
             <div className="span12">
@@ -40,7 +39,7 @@ export default function Images() {
                   </div>
                 </div>
                 {/* <!-- end portfolio item -->
-						<!-- portfolio item --> */}
+ 						<!-- portfolio item --> */}
                 <div className="portfolio-item grid print design web">
                   <div className="portfolio">
                     <a
@@ -58,7 +57,7 @@ export default function Images() {
                   </div>
                 </div>
                 {/* <!-- end portfolio item -->
-						<!-- portfolio item --> */}
+ 						<!-- portfolio item --> */}
                 <div className="portfolio-item grid print design">
                   <div className="portfolio">
                     <a
@@ -76,7 +75,7 @@ export default function Images() {
                   </div>
                 </div>
                 {/* <!-- end portfolio item -->
-						<!-- portfolio item --> */}
+ 						<!-- portfolio item --> */}
                 <div className="portfolio-item grid photography web">
                   <div className="portfolio">
                     <a
@@ -94,7 +93,7 @@ export default function Images() {
                   </div>
                 </div>
                 {/* <!-- end portfolio item -->
-						<!-- portfolio item --> */}
+ 						<!-- portfolio item --> */}
                 <div className="portfolio-item grid photography web">
                   <div className="portfolio">
                     <a
@@ -112,7 +111,7 @@ export default function Images() {
                   </div>
                 </div>
                 {/* <!-- end portfolio item -->
-						<!-- portfolio item --> */}
+ 						<!-- portfolio item --> */}
                 <div className="portfolio-item grid photography web">
                   <div className="portfolio">
                     <a
@@ -130,7 +129,7 @@ export default function Images() {
                   </div>
                 </div>
                 {/* <!-- end portfolio item -->
-						<!-- portfolio item --> */}
+ 						<!-- portfolio item --> */}
                 <div className="portfolio-item grid photography web">
                   <div className="portfolio">
                     <a
@@ -148,7 +147,7 @@ export default function Images() {
                   </div>
                 </div>
                 {/* <!-- end portfolio item -->
-						<!-- portfolio item --> */}
+ 						<!-- portfolio item --> */}
                 <div className="portfolio-item grid photography">
                   <div className="portfolio">
                     <a
@@ -166,7 +165,7 @@ export default function Images() {
                   </div>
                 </div>
                 {/* <!-- end portfolio item -->
-						<!-- portfolio item --> */}
+ 						<!-- portfolio item --> */}
                 <div className="portfolio-item grid photography web">
                   <div className="portfolio">
                     <a
@@ -184,7 +183,7 @@ export default function Images() {
                   </div>
                 </div>
                 {/* <!-- end portfolio item -->
-						<!-- portfolio item --> */}
+ 						<!-- portfolio item --> */}
                 <div className="portfolio-item grid design web">
                   <div className="portfolio">
                     <a

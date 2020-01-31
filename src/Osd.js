@@ -4,13 +4,13 @@ export default function Osd() {
   return (
     <div>
       <div className="dean" style={{ fontFamily: "Rambla" }}>
-        <section id="two" class="main style2">
-          <div class="container">
-            <div class="row  gtr-150">
-              {/* <div class="col-6 col-12-medium imp-medium"> */}
-              <div class="span5">
-                <ul class="major-icons">
-                  <span class="image fit">
+        <section id="two" className="main style2">
+          <div className="container">
+            <div className="row  gtr-150">
+              {/* <div className="col-6 col-12-medium imp-medium"> */}
+              <div className="span5">
+                <ul className="major-icons">
+                  <span className="image fit">
                     {" "}
                     <br />
                     <br />
@@ -26,8 +26,8 @@ export default function Osd() {
                 </ul>
               </div>
 
-              <div class="span5">
-                <header class="major">
+              <div className="span5">
+                <header className="major">
                   <h2 className="h22" style={{ fontSize: "1.5em" }}>
                     <strong>
                       Dr. Amitbodh Upadhyaya

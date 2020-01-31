@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./calendar.css";
-import { WanderingCubes } from "better-react-spinkit";
+
 export default class Calendar extends Component {
   state = {
     isLoading: true,
@@ -22,7 +22,6 @@ export default class Calendar extends Component {
   }
 
   render() {
-    var res;
     if (!this.state.isLoading) {
       return (
         <div className="body1" id="calendar">
@@ -51,7 +50,7 @@ export default class Calendar extends Component {
                 Academic Calendar
               </h2>
               {this.state.calendars.map((calendar, index) => (
-                <div className="calendar" id="calendar">
+                <div key={calendar._id} className="calendar" id="calendar">
                   <div class="responsive">
                     <br />
 

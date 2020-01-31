@@ -6,14 +6,14 @@ export default function Aboutus() {
       <div id="aboutlncts"></div>
       <section style={{ fontFamily: "Rambla" }}>
         <section>
-          <div class="container">
+          <div className="container">
             <article id="main">
-              <section class="wrapper style5">
+              <section className="wrapper style5">
                 {" "}
-                <div class="inner">
-                  <div class="row">
+                <div className="inner">
+                  <div className="row">
                     <section>
-                      <div class="container">
+                      <div className="container">
                         <h2
                           style={{
                             fontFamily: "Rambla",
@@ -24,9 +24,9 @@ export default function Aboutus() {
                         </h2>
                         <br />
 
-                        <div class="row">
-                          <div class="span5 ">
-                            <div class="aligncenter">
+                        <div className="row">
+                          <div className="span5 ">
+                            <div className="aligncenter">
                               <img
                                 src="/img/lncts.jpg"
                                 alt=""
@@ -37,7 +37,7 @@ export default function Aboutus() {
                             </div>
                           </div>
 
-                          <div class="span6  ">
+                          <div className="span6  ">
                             <div>
                               <p
                                 style={{

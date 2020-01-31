@@ -3,8 +3,8 @@ import React from "react";
 export default function Statistics() {
   return (
     <div className="body1" id="stats" style={{ fontFamily: "Rambla" }}>
-      <div id="wrapper" class="divided">
-        <section class="wrapper style1 align-center" id="reference">
+      <div id="wrapper" className="divided">
+        <section className="wrapper style1 align-center" id="reference">
           <div className="inner">
             <h2
               style={{
@@ -16,15 +16,15 @@ export default function Statistics() {
               Placement Record Of LNCT&S CSE
             </h2>
 
-            <div class="index align-left">
+            <div className="index align-left">
               <section id="reference-banner">
                 {/* <header>
-                  <h3>Mentor Information Of All Classes</h3>
+                  <h3>Mentor Information Of All ClassNamees</h3>
                 </header> */}
-                <div class="content">
+                <div className="content">
                   <section>
-                    <div class="table-wrapper">
-                      <table class="alt uniform fixed">
+                    <div className="table-wrapper">
+                      <table className="alt uniform fixed">
                         <tbody style={{ textAlign: "center" }}>
                           <tr>
                             <td>
@@ -37,7 +37,7 @@ export default function Statistics() {
                               <code>Placed </code>
                             </td>
                           </tr>
-                          <tr class="alt">
+                          <tr className="alt">
                             <td colspan="3"></td>
                           </tr>
                           <tr>
@@ -61,7 +61,7 @@ export default function Statistics() {
                             <td>152</td>
                             <td>120</td>
                           </tr>
-                          <tr class="alt">
+                          <tr className="alt">
                             <td colspan="3"></td>
                           </tr>
                         </tbody>

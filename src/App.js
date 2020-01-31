@@ -26,7 +26,7 @@ import Notes from "./Notes";
 import Syllabus from "./Syllabus";
 import Questionpapers from "./Questionpapers";
 import Scheme from "./Scheme";
-import Achievements from "./Achievements";
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -61,7 +61,6 @@ export default function App() {
             path="/previousyearquestionpapers"
             component={Questionpapers}
           />
-          <Route exact path="/achievements" component={Achievements} />
         </Switch>
       </div>
       <Footer />

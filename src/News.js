@@ -21,16 +21,16 @@ export default class News extends Component {
   }
   render() {
     var res = [];
-    var res1 = [];
-    var res2 = [];
+    var res1;
+    var res2;
     if (!this.state.isLoading) {
       return (
         <div>
           <div className="news" id="news">
             <div id="page-wrapper">
               <section id="footer1">
-                <div class="container">
-                  <div class="row">
+                <div className="container">
+                  <div className="row">
                     <section>
                       {" "}
                       <br />
@@ -39,7 +39,7 @@ export default class News extends Component {
                         <h2>Latest News And Updates</h2>
                       </header>{" "}
                       {this.state.news.map((news, index) => (
-                        <div>
+                        <div key={news._id}>
                           {
                             (((res = news.formattedDate.split(" ")),
                             (res1 = res[0]),
@@ -47,17 +47,20 @@ export default class News extends Component {
                             console.log(res1))
                           }
                           <br />
-                          <div className="span10 offset1">
-                            <ul class="dates">
+                          <div className="span12 offset1">
+                            <ul className="dates">
                               <li>
-                                <span class="date">
+                                <span className="date">
                                   {res1}
                                   <strong>{res2}</strong>
-                                </span>
-                                <h3>
+                                </span>{" "}
+                                <h2 style={{ paddingLeft: "20px" }}>
                                   <a href="#">{news.title}</a>
-                                </h3>
-                                <p>{news.body}</p>
+                                </h2>
+                                <br />
+                                <p style={{ paddingLeft: "20px" }}>
+                                  {news.body}
+                                </p>
                               </li>
                             </ul>
                           </div>
